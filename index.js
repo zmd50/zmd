@@ -44,7 +44,7 @@ function playVideo() {
         video.pause();
         btn.style.display = "flex";
         y = randPlay();
-    }, 15000);
+    }, 15100);
 }
 
 //结果显示
@@ -107,7 +107,7 @@ wrap.addEventListener("click", () => {
 function again() {
     setTimeout(() => {
         init("GameAgain");
-    }, 2000);
+    }, 3000);
 
 }
 
