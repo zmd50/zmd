@@ -1,0 +1,90 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: coral;
+}
+
+video {
+	position: absolute;
+	width: 100%;
+}
+
+div.btn-box {
+	width: 100%;
+	position: absolute;
+	height: 150px;
+	bottom: 10%;
+	background-color: transparent;
+	display: none;
+	justify-content: space-between;
+
+}
+
+div.btn {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	display: flex;
+	border: 5px solid;
+}
+
+div.btn1 {
+	background-image: url(/stone.jpg);
+}
+
+div.btn2 {
+	background-image: url(/knif.jpg);
+}
+
+div.btn3 {
+	background-image: url(/wrap.jpg);
+}
+
+div.result {
+	width: 80%;
+	height: 150px;
+	background-color: transparent;
+	position: absolute;
+	bottom: 30%;
+	display: none;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+div.me {
+	width: 150px;
+	height: 150px;
+	background-image: url(/stone.jpg);
+	border-radius: 50%;
+}
+
+div.you {
+	width: 150px;
+	height: 150px;
+	background-image: url(/stone.jpg);
+	border-radius: 50%;
+}
+
+div.info {
+	position: absolute;
+	width: 50%;
+	height: 100px;
+	margin-left: 20%;
+	background-color: aquamarine;
+	text-align: center;
+	top: 20vh;
+	font-size: 70px;
+}
